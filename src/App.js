@@ -1,9 +1,10 @@
 import logo from "./logo.svg";
 import Movies from "./hoc/movies";
 import "./App.css";
+import Counter from "./hooks/Counter";
 
 function App() {
-  return <Movies id={1} />;
+  return <Counter />;
 }
 
 export default App;
